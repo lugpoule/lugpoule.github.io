@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
             startDiv.classList.add('group');
             const startTitle = document.createElement('h3');
             startTitle.classList.add('group-title');
-            startTitle.innerText = "Welkom bij het EURO24 poultje!";
+            startTitle.innerText = "Welkom bij de EURO24 poule van LUG!";
             const nameInputFieldSpan = document.createElement('span');
             nameInputFieldSpan.classList.add('username');
             nameInputFieldSpan.innerHTML = `
