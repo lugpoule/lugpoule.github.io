@@ -63,6 +63,7 @@ function autoFillKOR16(event) {
 
 // Confirm submit function
 function confirmSubmit(e) {
+    console.log(e);
     if (!confirm('Zeker weten?\nJe kan het niet meer aanpassen.\n\nWacht tot je inzending is verwerkt en je "Success" ziet, dit kan ongeveer 5-25 sec duren.')) {
         e.preventDefault();
     }
